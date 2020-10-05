@@ -15,5 +15,5 @@ WIN_COMBINATIONS = [
 [1,4,7], #middle_side_win
 [2,5,8], #right_side_win
 [0,4,8], #cross_1
-[2,4,6] #cross_2
+[6,4,2] #cross_2
 ]
