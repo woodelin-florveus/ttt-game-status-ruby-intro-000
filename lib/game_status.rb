@@ -18,7 +18,7 @@ WIN_COMBINATIONS = [
 [6,4,2] #cross_2
 ]
 
-def won(board)
+def won?(board)
 
   win_index_1 = win_combination[0]
   win_index_2 = win_combination[1]
