@@ -37,3 +37,11 @@ def won(board)
   end
 
 end
+
+def full(board)
+  if board == "X" || board == "O"
+    return true 
+  else 
+    false
+  end
+end
