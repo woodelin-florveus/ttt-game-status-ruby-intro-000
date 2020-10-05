@@ -48,9 +48,11 @@ end
 
 def draw?(board)
   draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+  incomplete_board = ["X", " ", "X", " ", "X", " ", "O", "O", "X"]
+  x_diagonal_won = ["X", "O", "X", "O", "X", "O", "O", "O", "X"]
   if board[draw_board]
     return true
-  else
+  elsif board[incomplete_board] && board[x_diagonal_won]
     false
   end
 end
