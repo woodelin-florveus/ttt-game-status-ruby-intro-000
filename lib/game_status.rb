@@ -66,5 +66,7 @@ if board[draw_board] || board[won_board]
 else
   return false
 end
+end
 
+def winner?(board)
 end
