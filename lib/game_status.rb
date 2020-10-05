@@ -45,3 +45,12 @@ def full(board)
     false
   end
 end
+
+def draw?(board)
+  draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+  if board[draw_board]
+    return true
+  else
+    false
+  end
+end
