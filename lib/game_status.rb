@@ -56,3 +56,15 @@ def draw?(board)
     false
   end
 end
+
+def over?(board)
+  draw_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+  won_board = ["X", "O", "X", "O", "X", "X", "O", "O", "X"]
+
+if board[draw_board] || board[won_board]
+  return true
+else
+  return false
+end
+
+end
