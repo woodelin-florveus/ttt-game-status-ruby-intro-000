@@ -29,7 +29,10 @@ def won(board)
   position_3 = board[win_index_3] # load the value of the board at win_index_3
 
   WIN_COMBINATIONS.each do |wins|
-      if
+      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+        return [position_1,position_2,position_3]
+      else
+        false
       end
   end
 
