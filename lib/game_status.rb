@@ -30,7 +30,7 @@ def won(board)
 
   WIN_COMBINATIONS.each do |wins|
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
-        return [position_1,position_2,position_3]
+        return win_combination
       else
         false
       end
