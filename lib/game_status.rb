@@ -40,8 +40,8 @@ end
 
 def full(board)
   if board == "X" || board == "O"
-    return true 
-  else 
+    return true
+  else
     false
   end
 end
