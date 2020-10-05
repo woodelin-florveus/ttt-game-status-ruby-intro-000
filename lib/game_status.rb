@@ -39,11 +39,7 @@ def won(board)
 end
 
 def full?(board)
-  if board == "X" || board == "O"
-    return true
-  else
-    false
-  end
+bord.all?{|index|}
 end
 
 def draw?(board)
