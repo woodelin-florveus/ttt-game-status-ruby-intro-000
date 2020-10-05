@@ -17,3 +17,20 @@ WIN_COMBINATIONS = [
 [0,4,8], #cross_1
 [6,4,2] #cross_2
 ]
+
+def won(board)
+
+  win_index_1 = win_combination[0]
+  win_index_2 = win_combination[1]
+  win_index_3 = win_combination[2]
+
+  position_1 = board[win_index_1] # load the value of the board at win_index_1
+  position_2 = board[win_index_2] # load the value of the board at win_index_2
+  position_3 = board[win_index_3] # load the value of the board at win_index_3
+
+  WIN_COMBINATIONS.each do |wins|
+      if
+      end
+  end
+
+end
